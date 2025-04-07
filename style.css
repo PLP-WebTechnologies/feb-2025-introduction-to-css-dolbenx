@@ -1,0 +1,45 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: #4CAF50;
+  margin: 0;
+}
+
+/* Styling for sections with class 'intro' */
+.intro {
+  margin: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for images with class 'image-style' */
+.image-style {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 5px solid #333;
+  border-radius: 10px;
+  width: 100%; /* Make the image responsive */
+  max-width: 300px; /* Limit the image size */
+}
+
+/* Footer Styling using ID selector */
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
